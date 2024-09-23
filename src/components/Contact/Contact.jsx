@@ -28,7 +28,7 @@ export default function Contact({ id, name, number }) {
         </p>
       </div>
       <button className={css.button} onClick={handleDelete}>Delete</button>
-    </li>
+    </li >
   );
 
 }
