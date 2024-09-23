@@ -16,13 +16,13 @@ export default function Contact({ id, name, number }) {
       <div className={css.contactItemWrap}>
         <p className={css.contactText}>
           <svg className={css.nameSvg} width="12" height="12">
-            <use href="./img/phone.svg#name"></use>
+            <use href="/public/img/phone.svg#name"></use>
           </svg>
           {name}
         </p>
         <p className={css.contactText}>
           <svg className={css.numberSvg} width="12" height="12">
-            <use href="./img/phone.svg#number"></use>
+            <use href="/public/img/phone.svg#number"></use>
           </svg>
           {number}
         </p>
